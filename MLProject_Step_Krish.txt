@@ -1,0 +1,35 @@
+Create a folder on Drive
+E:\DATA SCIENCE\MLProject
+
+Copy above path
+
+Open Anaconda Prompt
+
+(base) C:\Users\HP>cd E:\DATA SCIENCE\MLProject
+
+(base) C:\Users\HP>e:
+
+(base) E:\DATA SCIENCE\MLProject>code .
+
+(base) E:\DATA SCIENCE\MLProject>
+
+VS Code will be opened.
+
+Open Terminal in VS Code
+
+conda create -p venv python=3.8 -y 
+
+conda activate venv/
+
+Create a new file in VS Code under the project -> README.md
+Write something in it 
+## My End to End Machine Learning Project
+
+> git add README.md
+> git commit -m "first commit"
+> git status
+
+git branch -M main
+git remote add origin https://github.com/roshanant/MLProject.git
+>git remote -v
+git push -u origin main
